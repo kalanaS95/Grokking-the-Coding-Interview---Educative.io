@@ -13,10 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Sliding Window">
+      <UniqueIdentifier>{cf2fec6f-b5d0-4bba-b42e-38781a7c8941}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Grokking the Coding Interview - Educative.io.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Introduction.cpp">
+      <Filter>Source Files\Sliding Window</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Sliding Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Maximum_sum_subarray_of_size_k_(Easy).cpp">
+      <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

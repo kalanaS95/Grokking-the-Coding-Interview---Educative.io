@@ -139,7 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Grokking the Coding Interview - Educative.io.cpp" />
+    <ClCompile Include="Introduction.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Maximum_sum_subarray_of_size_k_(Easy).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
