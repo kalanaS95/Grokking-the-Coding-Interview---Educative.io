@@ -14,6 +14,10 @@
 using namespace std;
 #define NUM_BASKETS 2
 
+/*
+	Time complexity: O(n)
+	Space complexity: O(k), where k is number of distinct fruits in the basket
+*/
 class MaxFruitCountOf2Types {
 
 private:
