@@ -8,6 +8,10 @@
 #include <string>
 using namespace std;
 
+/*
+	Time complexity: O(n)
+	Space complexity: O(k), k is the number of distinct letters
+*/
 class LongestSubstringKDistinct {
 
 private:
