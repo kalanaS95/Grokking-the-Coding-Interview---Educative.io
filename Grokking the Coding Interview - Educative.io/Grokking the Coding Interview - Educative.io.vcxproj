@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Fruits_in_baskets_(Medium).cpp" />
     <ClCompile Include="Introduction.cpp" />
     <ClCompile Include="Longest_substring_with_maximum_k_distinct_characters_(Medium).cpp" />
     <ClCompile Include="main.cpp" />

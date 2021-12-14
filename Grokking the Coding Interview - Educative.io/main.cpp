@@ -4,6 +4,7 @@
 #include "Maximum_sum_subarray_of_size_k_(Easy).cpp"
 #include "Smallest_subarray_with_a_given_sum_(Easy).cpp"
 #include "Longest_substring_with_maximum_k_distinct_characters_(Medium).cpp"
+#include "Fruits_in_baskets_(Medium).cpp"
 
 using namespace std;
 
@@ -30,6 +31,10 @@ int main() {
 	cout << "Longest Substring with maximum K Distinct Characters " << endl;
 	LongestSubstringKDistinct longest_string;
 	cout << "Length of longest substring: " << longest_string.findLength() <<endl <<endl;
+
+	cout << "Fruits into Baskets" << endl;
+	MaxFruitCountOf2Types max_fruit;
+	cout << "Maximum number of fruits in both baskets: " << max_fruit.findLength() << endl << endl;
 
 	return 0;
 }
