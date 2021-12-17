@@ -8,6 +8,10 @@
 
 using namespace std;
 
+/*
+	Time complexity: O(n)
+	Space complexity: O(m), where m is number of distinct letters
+*/
 class NoRepeatSubstring {
 
 private:

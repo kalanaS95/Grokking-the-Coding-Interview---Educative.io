@@ -39,5 +39,8 @@
     <ClCompile Include="Longest_substring_with_distinct_characters_(Hard).cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
+    <ClCompile Include="Longest_substring_with_same_letters_after_replacement_(Hard).cpp">
+      <Filter>Source Files\Sliding Window</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
