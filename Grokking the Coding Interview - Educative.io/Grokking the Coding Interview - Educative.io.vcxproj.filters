@@ -36,5 +36,8 @@
     <ClCompile Include="Fruits_in_baskets_(Medium).cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
+    <ClCompile Include="Longest_substring_with_distinct_characters_(Hard).cpp">
+      <Filter>Source Files\Sliding Window</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

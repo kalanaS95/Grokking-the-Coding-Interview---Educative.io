@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Fruits_in_baskets_(Medium).cpp" />
     <ClCompile Include="Introduction.cpp" />
+    <ClCompile Include="Longest_substring_with_distinct_characters_(Hard).cpp" />
     <ClCompile Include="Longest_substring_with_maximum_k_distinct_characters_(Medium).cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Maximum_sum_subarray_of_size_k_(Easy).cpp" />
