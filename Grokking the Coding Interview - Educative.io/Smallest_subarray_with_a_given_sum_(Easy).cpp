@@ -32,6 +32,7 @@ public:
 		this->arr = new vector<int>(arr);
 	}
 
+
 	int findMinSubArray() {
 
 		int window_start = 0;

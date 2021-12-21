@@ -7,6 +7,8 @@
 #include "Fruits_in_baskets_(Medium).cpp"
 #include "Longest_substring_with_distinct_characters_(Hard).cpp"
 #include "Longest_substring_with_same_letters_after_replacement_(Hard).cpp"
+#include "Longest_subarray_with_ones_after_replacement_(Hard).cpp"
+#include "Permutations_in_a_string_(Hard).cpp"
 
 using namespace std;
 
@@ -45,6 +47,15 @@ int main() {
 	cout << "Longest Substring with Same Letters after Replacement" << endl;
 	CharacterReplacement char_replace;
 	cout << "Length of the longest substring having the same letters: " << char_replace.findLength() << endl << endl;
+
+	cout << "Longest Subarray with Ones after Replacement" << endl;
+	ReplacingOnes repalcing_ones;
+	cout << "Longest contiguous subarray size having all 1s: " << repalcing_ones.findLength() << endl << endl;
+
+	cout << "Permutation in a String" << endl;
+	StringPermutation perm;
+	string res = (perm.findPermutation()) ? "true" : "false";
+	cout << "string contains any permutation of the pattern: " << res << endl << endl;
 
 	return 0;
 }
