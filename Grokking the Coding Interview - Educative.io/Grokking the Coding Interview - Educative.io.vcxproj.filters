@@ -48,5 +48,8 @@
     <ClCompile Include="Permutations_in_a_string_(Hard).cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
+    <ClCompile Include="String_anagrams_(Hard).cpp">
+      <Filter>Source Files\Sliding Window</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

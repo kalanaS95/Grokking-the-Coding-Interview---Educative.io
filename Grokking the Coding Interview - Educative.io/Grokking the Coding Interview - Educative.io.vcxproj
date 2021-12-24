@@ -149,6 +149,7 @@
     <ClCompile Include="Maximum_sum_subarray_of_size_k_(Easy).cpp" />
     <ClCompile Include="Permutations_in_a_string_(Hard).cpp" />
     <ClCompile Include="Smallest_subarray_with_a_given_sum_(Easy).cpp" />
+    <ClCompile Include="String_anagrams_(Hard).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

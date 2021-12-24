@@ -9,6 +9,7 @@
 #include "Longest_substring_with_same_letters_after_replacement_(Hard).cpp"
 #include "Longest_subarray_with_ones_after_replacement_(Hard).cpp"
 #include "Permutations_in_a_string_(Hard).cpp"
+#include "String_anagrams_(Hard).cpp"
 
 using namespace std;
 
@@ -56,6 +57,16 @@ int main() {
 	StringPermutation perm;
 	string res = (perm.findPermutation()) ? "true" : "false";
 	cout << "string contains any permutation of the pattern: " << res << endl << endl;
+
+	cout << "String anagrams" << endl;
+	cout << "Indexes of the anagram pattern: ";
+	StringAnagrams anagrams;
+	for (int item : anagrams.findStringAnagrams()) {
+
+		cout << item << " ";
+	}
+	cout << endl << endl;
+
 
 	return 0;
 }
