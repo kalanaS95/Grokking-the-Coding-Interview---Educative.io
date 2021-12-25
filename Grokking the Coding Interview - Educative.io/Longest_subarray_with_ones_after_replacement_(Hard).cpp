@@ -8,6 +8,10 @@
 #include <vector>
 using namespace std;
 
+/*
+	Time Complexity: O(n), where n is number of elements in the vector
+	Space Complexity: O(1)
+*/
 class ReplacingOnes {
 
 private:
@@ -32,29 +36,25 @@ public:
 		int window_start = 0;
 		int max_len = INT_MIN;
 		int replaced = 0;
-		int last_zero_index = 0;
 
 		for (int window_end = 0; window_end < this->array->size(); window_end++) {
-			
+
 			if (this->array->at(window_end) == 0) {
 
-				if (replaced < this->k) {
-
-					last_zero_index = window_end;
-					replaced++;
-					max_len = max(max_len, (window_end - window_start) + 1);
-				}
-				else {
-
-					window_start = last_zero_index;
-					window_end = window_start - 1;
-					replaced = 0;
-				}
+				replaced++;
 			}
-			else {
 
-				max_len = max(max_len, (window_end - window_start) + 1);
+			if (replaced > this->k) {
+
+				if (this->array->at(window_start) == 0) {
+
+					replaced--;
+				}
+
+				window_start++;
 			}
+
+			max_len = max(max_len, window_end - window_start + 1);
 		}
 
 		return max_len;
