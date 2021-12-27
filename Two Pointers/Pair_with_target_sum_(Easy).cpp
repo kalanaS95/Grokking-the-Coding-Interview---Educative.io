@@ -7,6 +7,10 @@
 #include <vector>
 using namespace std;
 
+/*
+	Time Complexity: O(n), where n is number of elements in the vector
+	Space Complexity: O(1)
+*/
 class pair_with_target_sum {
 
 private:

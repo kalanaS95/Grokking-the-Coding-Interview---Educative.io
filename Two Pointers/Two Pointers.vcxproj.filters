@@ -21,5 +21,8 @@
     <ClCompile Include="Pair_with_target_sum_(Easy).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Remove_duplicates_(Easy).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
