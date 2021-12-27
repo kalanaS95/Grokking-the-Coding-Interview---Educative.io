@@ -10,6 +10,7 @@
 #include "Longest_subarray_with_ones_after_replacement_(Hard).cpp"
 #include "Permutations_in_a_string_(Hard).cpp"
 #include "String_anagrams_(Hard).cpp"
+#include "Smallest_window_containing_substring_(Hard).cpp"
 
 using namespace std;
 
@@ -66,7 +67,10 @@ int main() {
 		cout << item << " ";
 	}
 	cout << endl << endl;
-
+	
+	cout << "Smallest Window containing Substring" << endl;
+	MinimumWindowSubstring min_substring;
+	cout << "Smallest substring with all the characters of the given pattern: " << min_substring.find_substring() << endl << endl;
 
 	return 0;
 }
