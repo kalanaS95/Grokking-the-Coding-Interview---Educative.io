@@ -24,5 +24,8 @@
     <ClCompile Include="Remove_duplicates_(Easy).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Squaring_a_sorted_array_(Easy).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

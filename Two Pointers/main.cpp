@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Pair_with_target_sum_(Easy).cpp"
 #include "Remove_duplicates_(Easy).cpp"
+#include "Squaring_a_sorted_array_(Easy).cpp"
 using namespace std;
 
 int main()
@@ -13,5 +14,15 @@ int main()
     cout << "Remove Duplicates" << endl;
     remove_duplicates remov_dups;
     cout << "Array length after removing duplicates: " << remov_dups.remove_dups() << endl << endl;
+
+    cout << "Squaring a Sorted Array" << endl;
+    cout << "Squares of all the numbers of the input array: [";
+    sorted_array_squared squared;
+    for (auto element : squared.square_array()) {
+
+        cout << element << " ";
+    }
+    cout << "]" << endl << endl;
+
 }
 
