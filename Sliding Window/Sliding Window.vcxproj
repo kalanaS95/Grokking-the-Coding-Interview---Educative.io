@@ -18,10 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Fruits_in_baskets_(Medium).cpp" />
+    <ClCompile Include="Introduction.cpp" />
+    <ClCompile Include="Longest_subarray_with_ones_after_replacement_(Hard).cpp" />
+    <ClCompile Include="Longest_substring_with_distinct_characters_(Hard).cpp" />
+    <ClCompile Include="Longest_substring_with_maximum_k_distinct_characters_(Medium).cpp" />
+    <ClCompile Include="Longest_substring_with_same_letters_after_replacement_(Hard).cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Maximum_sum_subarray_of_size_k_(Easy).cpp" />
+    <ClCompile Include="Permutations_in_a_string_(Hard).cpp" />
+    <ClCompile Include="Smallest_subarray_with_a_given_sum_(Easy).cpp" />
+    <ClCompile Include="Smallest_window_containing_substring_(Hard).cpp" />
+    <ClCompile Include="String_anagrams_(Hard).cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{63713869-95d0-488f-a94c-fb63970bc70e}</ProjectGuid>
+    <ProjectGuid>{2ee6505c-d17c-4051-ab2e-05009f9577ba}</ProjectGuid>
     <RootNamespace>SlidingWindow</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -138,20 +152,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Fruits_in_baskets_(Medium).cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Introduction.cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Longest_subarray_with_ones_after_replacement_(Hard).cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Longest_substring_with_distinct_characters_(Hard).cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Longest_substring_with_maximum_k_distinct_characters_(Medium).cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Longest_substring_with_same_letters_after_replacement_(Hard).cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\main.cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Maximum_sum_subarray_of_size_k_(Easy).cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Permutations_in_a_string_(Hard).cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Smallest_subarray_with_a_given_sum_(Easy).cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Smallest_window_containing_substring_(Hard).cpp" />
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\String_anagrams_(Hard).cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

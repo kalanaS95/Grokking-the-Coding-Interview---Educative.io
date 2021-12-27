@@ -15,40 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Fruits_in_baskets_(Medium).cpp">
+    <ClCompile Include="Fruits_in_baskets_(Medium).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Introduction.cpp">
+    <ClCompile Include="Introduction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Longest_subarray_with_ones_after_replacement_(Hard).cpp">
+    <ClCompile Include="Longest_subarray_with_ones_after_replacement_(Hard).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Longest_substring_with_distinct_characters_(Hard).cpp">
+    <ClCompile Include="Longest_substring_with_distinct_characters_(Hard).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Longest_substring_with_maximum_k_distinct_characters_(Medium).cpp">
+    <ClCompile Include="Longest_substring_with_maximum_k_distinct_characters_(Medium).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Longest_substring_with_same_letters_after_replacement_(Hard).cpp">
+    <ClCompile Include="Longest_substring_with_same_letters_after_replacement_(Hard).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Maximum_sum_subarray_of_size_k_(Easy).cpp">
+    <ClCompile Include="Maximum_sum_subarray_of_size_k_(Easy).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Permutations_in_a_string_(Hard).cpp">
+    <ClCompile Include="Permutations_in_a_string_(Hard).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Smallest_subarray_with_a_given_sum_(Easy).cpp">
+    <ClCompile Include="Smallest_subarray_with_a_given_sum_(Easy).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\Smallest_window_containing_substring_(Hard).cpp">
+    <ClCompile Include="Smallest_window_containing_substring_(Hard).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kalan\Downloads\Grokking-the-Coding-Interview---Educative.io-master\Grokking-the-Coding-Interview---Educative.io-master\Grokking the Coding Interview - Educative.io\Sliding Window\String_anagrams_(Hard).cpp">
+    <ClCompile Include="String_anagrams_(Hard).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
