@@ -18,40 +18,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Introduction.cpp">
+    <ClCompile Include="Sliding Window\Introduction.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Sliding Window\main.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="Maximum_sum_subarray_of_size_k_(Easy).cpp">
+    <ClCompile Include="Sliding Window\Maximum_sum_subarray_of_size_k_%28Easy%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="Smallest_subarray_with_a_given_sum_(Easy).cpp">
+    <ClCompile Include="Sliding Window\Smallest_subarray_with_a_given_sum_%28Easy%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="Longest_substring_with_maximum_k_distinct_characters_(Medium).cpp">
+    <ClCompile Include="Sliding Window\Longest_substring_with_maximum_k_distinct_characters_%28Medium%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="Fruits_in_baskets_(Medium).cpp">
+    <ClCompile Include="Sliding Window\Fruits_in_baskets_%28Medium%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="Longest_substring_with_distinct_characters_(Hard).cpp">
+    <ClCompile Include="Sliding Window\Longest_substring_with_distinct_characters_%28Hard%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="Longest_substring_with_same_letters_after_replacement_(Hard).cpp">
+    <ClCompile Include="Sliding Window\Longest_substring_with_same_letters_after_replacement_%28Hard%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="Longest_subarray_with_ones_after_replacement_(Hard).cpp">
+    <ClCompile Include="Sliding Window\Longest_subarray_with_ones_after_replacement_%28Hard%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="Permutations_in_a_string_(Hard).cpp">
+    <ClCompile Include="Sliding Window\Permutations_in_a_string_%28Hard%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="String_anagrams_(Hard).cpp">
+    <ClCompile Include="Sliding Window\String_anagrams_%28Hard%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
-    <ClCompile Include="Smallest_window_containing_substring_(Hard).cpp">
+    <ClCompile Include="Sliding Window\Smallest_window_containing_substring_%28Hard%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
   </ItemGroup>
