@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grokking the Coding Interview - Educative.io", "Grokking the Coding Interview - Educative.io\Grokking the Coding Interview - Educative.io.vcxproj", "{80A8A9A3-7866-4D8C-A35B-4B8BAE349CEC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Two Pointers", "Two Pointers\Two Pointers.vcxproj", "{EC57C1BB-B66D-4896-B3A9-5FDB381E8B96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sliding Window", "Sliding Window\Sliding Window.vcxproj", "{63713869-95D0-488F-A94C-FB63970BC70E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,22 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{80A8A9A3-7866-4D8C-A35B-4B8BAE349CEC}.Debug|x64.ActiveCfg = Debug|x64
-		{80A8A9A3-7866-4D8C-A35B-4B8BAE349CEC}.Debug|x64.Build.0 = Debug|x64
-		{80A8A9A3-7866-4D8C-A35B-4B8BAE349CEC}.Debug|x86.ActiveCfg = Debug|Win32
-		{80A8A9A3-7866-4D8C-A35B-4B8BAE349CEC}.Debug|x86.Build.0 = Debug|Win32
-		{80A8A9A3-7866-4D8C-A35B-4B8BAE349CEC}.Release|x64.ActiveCfg = Release|x64
-		{80A8A9A3-7866-4D8C-A35B-4B8BAE349CEC}.Release|x64.Build.0 = Release|x64
-		{80A8A9A3-7866-4D8C-A35B-4B8BAE349CEC}.Release|x86.ActiveCfg = Release|Win32
-		{80A8A9A3-7866-4D8C-A35B-4B8BAE349CEC}.Release|x86.Build.0 = Release|Win32
+		{EC57C1BB-B66D-4896-B3A9-5FDB381E8B96}.Debug|x64.ActiveCfg = Debug|x64
+		{EC57C1BB-B66D-4896-B3A9-5FDB381E8B96}.Debug|x64.Build.0 = Debug|x64
+		{EC57C1BB-B66D-4896-B3A9-5FDB381E8B96}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC57C1BB-B66D-4896-B3A9-5FDB381E8B96}.Debug|x86.Build.0 = Debug|Win32
+		{EC57C1BB-B66D-4896-B3A9-5FDB381E8B96}.Release|x64.ActiveCfg = Release|x64
+		{EC57C1BB-B66D-4896-B3A9-5FDB381E8B96}.Release|x64.Build.0 = Release|x64
+		{EC57C1BB-B66D-4896-B3A9-5FDB381E8B96}.Release|x86.ActiveCfg = Release|Win32
+		{EC57C1BB-B66D-4896-B3A9-5FDB381E8B96}.Release|x86.Build.0 = Release|Win32
+		{63713869-95D0-488F-A94C-FB63970BC70E}.Debug|x64.ActiveCfg = Debug|x64
+		{63713869-95D0-488F-A94C-FB63970BC70E}.Debug|x64.Build.0 = Debug|x64
+		{63713869-95D0-488F-A94C-FB63970BC70E}.Debug|x86.ActiveCfg = Debug|Win32
+		{63713869-95D0-488F-A94C-FB63970BC70E}.Debug|x86.Build.0 = Debug|Win32
+		{63713869-95D0-488F-A94C-FB63970BC70E}.Release|x64.ActiveCfg = Release|x64
+		{63713869-95D0-488F-A94C-FB63970BC70E}.Release|x64.Build.0 = Release|x64
+		{63713869-95D0-488F-A94C-FB63970BC70E}.Release|x86.ActiveCfg = Release|Win32
+		{63713869-95D0-488F-A94C-FB63970BC70E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

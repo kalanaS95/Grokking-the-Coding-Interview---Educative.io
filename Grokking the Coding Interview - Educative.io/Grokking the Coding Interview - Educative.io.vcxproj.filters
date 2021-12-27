@@ -54,5 +54,8 @@
     <ClCompile Include="Sliding Window\Smallest_window_containing_substring_%28Hard%29.cpp">
       <Filter>Source Files\Sliding Window</Filter>
     </ClCompile>
+    <ClCompile Include="Two Pointers\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
