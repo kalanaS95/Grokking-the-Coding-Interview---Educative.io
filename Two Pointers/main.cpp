@@ -2,6 +2,7 @@
 #include "Pair_with_target_sum_(Easy).cpp"
 #include "Remove_duplicates_(Easy).cpp"
 #include "Squaring_a_sorted_array_(Easy).cpp"
+#include "Triplet_sum_to_zero_(Medium).cpp"
 using namespace std;
 
 int main()
@@ -23,6 +24,21 @@ int main()
         cout << element << " ";
     }
     cout << "]" << endl << endl;
+
+    cout << "Triplet Sum to Zero" << endl;
+    cout << "All unique triplets in it that add up to zero: [ ";
+    triplet_sum_to_zero sum_zero;
+    for (auto vec : sum_zero.find_triplets()) {
+
+        cout << "[ ";
+        for (auto element : vec) {
+
+            cout << element << " ";
+        }
+        cout << "] ";
+    }
+    cout << "]" << endl << endl;
+
 
 }
 

@@ -23,6 +23,7 @@
     <ClCompile Include="Pair_with_target_sum_(Easy).cpp" />
     <ClCompile Include="Remove_duplicates_(Easy).cpp" />
     <ClCompile Include="Squaring_a_sorted_array_(Easy).cpp" />
+    <ClCompile Include="Triplet_sum_to_zero_(Medium).cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
