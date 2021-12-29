@@ -12,7 +12,7 @@ using std::sort;
 
 /*
 	Time Complexity: O(n log n) + O(n) * O(n) == O(n^2), where n is number of elements in the vector 
-	Space Complexity: O(1)
+	Space Complexity: O(n), where n is number of elements in the vector  
 */
 class triptlet_sum_close_to_target {
 
@@ -68,7 +68,7 @@ public:
 		int curr_difference = INT_MAX;
 		vector<int> selected_values(3, -1);
 		// sort the array to use two pointer method
-		sort(this->arr.begin(), this->arr.end()); // O(n log n)
+		sort(this->arr.begin(), this->arr.end()); // time-O(n log n), space - O(n)
 
 		for (int index = 0; index < this->arr.size() - 2; index++) { // O(n)
 
