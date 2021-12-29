@@ -3,6 +3,7 @@
 #include "Remove_duplicates_(Easy).cpp"
 #include "Squaring_a_sorted_array_(Easy).cpp"
 #include "Triplet_sum_to_zero_(Medium).cpp"
+#include "Triplet_sum_close_to_target_(Medium).cpp"
 using namespace std;
 
 int main()
@@ -39,6 +40,8 @@ int main()
     }
     cout << "]" << endl << endl;
 
-
+    cout << "Triplet Sum Close to Target" << endl;
+    triptlet_sum_close_to_target triplet_close;
+    cout << "triplet in the array whose sum is as close to the target number as possible is: " << triplet_close.search_triplet() << endl << endl;
 }
 
