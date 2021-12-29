@@ -39,5 +39,8 @@
     <ClCompile Include="Subarray_with_products_less_than_a_target_(Medium).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dutch_national_flag_problem_(Medium).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

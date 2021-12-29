@@ -6,6 +6,7 @@
 #include "Triplet_sum_close_to_target_(Medium).cpp"
 #include "Triplet_with_smaller_sum_(Medium).cpp"
 #include "Subarray_with_products_less_than_a_target_(Medium).cpp"
+#include "Dutch_national_flag_problem_(Medium).cpp"
 using namespace std;
 
 int main()
@@ -63,5 +64,15 @@ int main()
         cout << "] ";
     }
     cout << " ]" << endl << endl;
+
+    cout << "Dutch National Flag Problem" << endl;
+    dutch_flag d_flag;
+    vector<int> res = d_flag.sort_flag();
+    cout << "After sorting: [ ";
+    for (auto element : res) {
+
+        cout << element << " ";
+    }
+    cout << "]" << endl << endl;
 }
 
