@@ -33,5 +33,11 @@
     <ClCompile Include="Triplet_sum_close_to_target_(Medium).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Triplet_with_smaller_sum_(Medium).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Subarray_with_products_less_than_a_target_(Medium).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

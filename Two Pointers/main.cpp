@@ -4,6 +4,8 @@
 #include "Squaring_a_sorted_array_(Easy).cpp"
 #include "Triplet_sum_to_zero_(Medium).cpp"
 #include "Triplet_sum_close_to_target_(Medium).cpp"
+#include "Triplet_with_smaller_sum_(Medium).cpp"
+#include "Subarray_with_products_less_than_a_target_(Medium).cpp"
 using namespace std;
 
 int main()
@@ -43,5 +45,23 @@ int main()
     cout << "Triplet Sum Close to Target" << endl;
     triptlet_sum_close_to_target triplet_close;
     cout << "triplet in the array whose sum is as close to the target number as possible is: " << triplet_close.search_triplet() << endl << endl;
+
+    cout << "Triplets with Smaller Sum" << endl;
+    triplet_with_smaller_sum triplet_smaller;
+    cout << "Number of triplets s.t sum is smaller than target: " << triplet_smaller.find_tripets() << endl << endl;
+
+    cout << "Subarrays with Product Less than a Target" << endl;
+    subarray_product_less_than_k subarray;
+    cout << "Subarrays whose product is less than the target number: [ ";
+    for (auto vec : subarray.find_triplets()) {
+
+        cout << "[ ";
+        for (auto element : vec) {
+
+            cout << element << " ";
+        }
+        cout << "] ";
+    }
+    cout << " ]" << endl << endl;
 }
 
