@@ -42,5 +42,8 @@
     <ClCompile Include="Dutch_national_flag_problem_(Medium).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Quadruple_sum_to_target_(Medium).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

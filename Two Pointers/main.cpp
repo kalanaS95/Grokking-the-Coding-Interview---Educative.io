@@ -7,6 +7,7 @@
 #include "Triplet_with_smaller_sum_(Medium).cpp"
 #include "Subarray_with_products_less_than_a_target_(Medium).cpp"
 #include "Dutch_national_flag_problem_(Medium).cpp"
+#include "Quadruple_sum_to_target_(Medium).cpp"
 using namespace std;
 
 int main()
@@ -72,6 +73,20 @@ int main()
     for (auto element : res) {
 
         cout << element << " ";
+    }
+    cout << "]" << endl << endl;
+
+    cout << "Quadruple Sum to Target" << endl;
+    quadruple_sum_to_target quad_sum;
+    cout << "All unique quadruplets in it, whose sum is equal to the target number: [ ";
+    for (auto vec : quad_sum.search_quadriplets()) {
+
+        cout << "[ ";
+        for (auto element : vec) {
+
+            cout << element << " ";
+        }
+        cout << "] ";
     }
     cout << "]" << endl << endl;
 }

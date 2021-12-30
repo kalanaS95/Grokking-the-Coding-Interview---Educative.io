@@ -22,6 +22,7 @@
     <ClCompile Include="Dutch_national_flag_problem_(Medium).cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pair_with_target_sum_(Easy).cpp" />
+    <ClCompile Include="Quadruple_sum_to_target_(Medium).cpp" />
     <ClCompile Include="Remove_duplicates_(Easy).cpp" />
     <ClCompile Include="Squaring_a_sorted_array_(Easy).cpp" />
     <ClCompile Include="Subarray_with_products_less_than_a_target_(Medium).cpp" />
