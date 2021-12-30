@@ -8,6 +8,7 @@
 #include "Subarray_with_products_less_than_a_target_(Medium).cpp"
 #include "Dutch_national_flag_problem_(Medium).cpp"
 #include "Quadruple_sum_to_target_(Medium).cpp"
+#include "Compairing_strings_containing_backspaces_(Medium).cpp"
 using namespace std;
 
 int main()
@@ -89,5 +90,11 @@ int main()
         cout << "] ";
     }
     cout << "]" << endl << endl;
+
+    cout << "Comparing Strings containing Backspaces" << endl;
+    backspace_compare compare;
+    string res_ = (compare.compare()) ? "Strings are equal" : "Strings are not equal";
+    cout << "Is the two strings are equal ? " << res_ << endl << endl;
+
 }
 
