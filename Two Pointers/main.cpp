@@ -9,6 +9,7 @@
 #include "Dutch_national_flag_problem_(Medium).cpp"
 #include "Quadruple_sum_to_target_(Medium).cpp"
 #include "Compairing_strings_containing_backspaces_(Medium).cpp"
+#include "Minimum_window_sort_(Medium).cpp"
 using namespace std;
 
 int main()
@@ -96,5 +97,9 @@ int main()
     string res_ = (compare.compare()) ? "Strings are equal" : "Strings are not equal";
     cout << "Is the two strings are equal ? " << res_ << endl << endl;
 
+    cout << "Minimum Window Sort" << endl;
+    minimum_window_sort min_window;
+    cout << "Length of the smallest subarray in it which when sorted will sort the whole array: " << min_window.min_window_size() << endl << endl;
+   
 }
 

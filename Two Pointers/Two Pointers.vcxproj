@@ -22,6 +22,7 @@
     <ClCompile Include="Compairing_strings_containing_backspaces_(Medium).cpp" />
     <ClCompile Include="Dutch_national_flag_problem_(Medium).cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Minimum_window_sort_(Medium).cpp" />
     <ClCompile Include="Pair_with_target_sum_(Easy).cpp" />
     <ClCompile Include="Quadruple_sum_to_target_(Medium).cpp" />
     <ClCompile Include="Remove_duplicates_(Easy).cpp" />
