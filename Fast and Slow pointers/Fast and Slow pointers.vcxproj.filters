@@ -21,5 +21,13 @@
     <ClCompile Include="Linked_list_cycle_(Easy).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="start_of_a_linked_list_cycle_(medium).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="linked_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

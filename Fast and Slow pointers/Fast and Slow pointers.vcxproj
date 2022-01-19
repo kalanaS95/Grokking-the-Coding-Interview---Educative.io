@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClCompile Include="Linked_list_cycle_(Easy).cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="start_of_a_linked_list_cycle_(medium).cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="linked_list.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
