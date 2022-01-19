@@ -2,6 +2,7 @@
 #include "Linked_list_cycle_(Easy).cpp"
 #include "start_of_a_linked_list_cycle_(medium).cpp"
 #include "happy_number.cpp"
+#include "middle_of_linked_list.cpp"
 using namespace std;
 
 int main()
@@ -17,6 +18,9 @@ int main()
 	cout << "Happy Number" << endl;
 	string res = (happy_number().is_happy_number()) ? "Yes" : "No";
 	cout << "12 is a happy number: " << res << endl << endl;
+
+	cout << "Middle of a linked list" << endl;
+	cout << "Middle of the linked list is: " << ((middle_of_ll()).middle_of_the_linked_list())->get_value() << endl << endl;
 
 }
 
