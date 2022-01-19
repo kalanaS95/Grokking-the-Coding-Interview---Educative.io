@@ -11,6 +11,10 @@
 #include <iostream>
 #include "linked_list.h"
 
+/*
+	Time Complexity: O(n), where n is number of nodes in the LL
+	Space Complexity: O(1)
+*/
 class start_of_LL_cycle {
 private:
 	list_node* head_node;
@@ -53,6 +57,8 @@ public:
 	/*
 		if loop exists: slow and fast private members will be set to where they were met
 		return false if no loop
+		Time Complexity: O(n)
+		Space Complexity: O(1)
 	*/
 	bool find_loop_exists() {
 
@@ -79,6 +85,10 @@ public:
 		return false;
 	}
 
+	/*
+		Time Complexity: O(n)
+		Space Complexity: O(1)
+	*/
 	int find_cycle_length() {
 
 		if (this->find_loop_exists()) {
@@ -101,6 +111,10 @@ public:
 		return 0;
 	}
 
+	/*
+		Time Complexity: O(n)
+		Space Complexity: O(1)
+	*/
 	list_node* cycle_start() {
 
 		int cycle_length = this->find_cycle_length();

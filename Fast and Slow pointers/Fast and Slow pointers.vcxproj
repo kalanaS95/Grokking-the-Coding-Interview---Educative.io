@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="happy_number.cpp" />
     <ClCompile Include="Linked_list_cycle_(Easy).cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="start_of_a_linked_list_cycle_(medium).cpp" />
