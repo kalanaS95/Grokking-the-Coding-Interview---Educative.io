@@ -3,6 +3,7 @@
 #include "start_of_a_linked_list_cycle_(medium).cpp"
 #include "happy_number.cpp"
 #include "middle_of_linked_list.cpp"
+#include "palindrome_linked_list.cpp"
 using namespace std;
 
 int main()
@@ -22,5 +23,8 @@ int main()
 	cout << "Middle of a linked list" << endl;
 	cout << "Middle of the linked list is: " << ((middle_of_ll()).middle_of_the_linked_list())->get_value() << endl << endl;
 
+	cout << "Palindrome Linked List" << endl;
+	string result = (((palindrome_linked_list(false)).check_palindrome()) == true) ? "Yes" : "No";
+	cout << "Linked List is a palindrome? : " << result <<endl <<endl;
 }
 
