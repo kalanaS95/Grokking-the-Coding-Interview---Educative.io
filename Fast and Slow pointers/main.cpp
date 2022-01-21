@@ -4,6 +4,7 @@
 #include "happy_number.cpp"
 #include "middle_of_linked_list.cpp"
 #include "palindrome_linked_list.cpp"
+#include "rearrange_linked_list.cpp"
 using namespace std;
 
 int main()
@@ -26,5 +27,7 @@ int main()
 	cout << "Palindrome Linked List" << endl;
 	string result = (((palindrome_linked_list(false)).check_palindrome()) == true) ? "Yes" : "No";
 	cout << "Linked List is a palindrome? : " << result <<endl <<endl;
+
+	(rearrange_linked_list(false)).re_arrange_linked_list();
 }
 
