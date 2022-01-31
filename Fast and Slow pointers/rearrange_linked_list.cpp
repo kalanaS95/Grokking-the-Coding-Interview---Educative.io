@@ -10,6 +10,10 @@
 using std::cout;
 using std::endl;
 
+/*
+	Time Complexity: O(n), where n is number of elements in the linked list
+	Space Complexity: O(1)
+*/
 class rearrange_linked_list {
 private:
 	list_node* head_node;
