@@ -2,6 +2,7 @@
 #include "cyclic_sort.cpp"
 #include "find_the_missing_number.cpp"
 #include "find_all_missing_numbers.cpp"
+#include "find_the_duplicate_number.cpp"
 using namespace std;
 
 int main()
@@ -20,6 +21,8 @@ int main()
         cout << elem << " ";
     }
     cout << endl << endl;
+
+    cout << "Find the duplicate number: " << (find_the_duplicate_number()).duplicate_element() << endl << endl;
 
 }
 

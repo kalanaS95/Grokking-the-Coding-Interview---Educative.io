@@ -27,5 +27,8 @@
     <ClCompile Include="find_all_missing_numbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="find_the_duplicate_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
