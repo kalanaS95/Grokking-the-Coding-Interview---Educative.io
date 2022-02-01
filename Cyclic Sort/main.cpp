@@ -4,6 +4,7 @@
 #include "find_all_missing_numbers.cpp"
 #include "find_the_duplicate_number.cpp"
 #include "find_all_duplicate_numbers.cpp"
+#include "find_the_corrupt_pair.cpp"
 using namespace std;
 
 int main()
@@ -30,6 +31,9 @@ int main()
         cout << elem << " ";
     }
     cout << endl << endl;
+
+    vector<int> m_d = (find_the_corrupt_pair()).find_missing_duplicate_pair();
+    cout << "Duplicate Element: " << m_d[0] << " Missing element: " << m_d[1] << endl << endl;
 
 }
 
