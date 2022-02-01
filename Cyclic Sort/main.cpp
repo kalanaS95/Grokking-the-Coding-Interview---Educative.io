@@ -5,6 +5,7 @@
 #include "find_the_duplicate_number.cpp"
 #include "find_all_duplicate_numbers.cpp"
 #include "find_the_corrupt_pair.cpp"
+#include "find_the_smallest_missing_positive_number.cpp"
 using namespace std;
 
 int main()
@@ -34,6 +35,8 @@ int main()
 
     vector<int> m_d = (find_the_corrupt_pair()).find_missing_duplicate_pair();
     cout << "Duplicate Element: " << m_d[0] << " Missing element: " << m_d[1] << endl << endl;
+
+    cout << "Find the smallest Missing Positive Number: " << (find_the_smallest_missing_positive_number()).smallest_missing_number() << endl << endl;
 
 }
 

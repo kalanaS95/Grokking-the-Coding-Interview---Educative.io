@@ -145,6 +145,7 @@
     <ClCompile Include="find_the_corrupt_pair.cpp" />
     <ClCompile Include="find_the_duplicate_number.cpp" />
     <ClCompile Include="find_the_missing_number.cpp" />
+    <ClCompile Include="find_the_smallest_missing_positive_number.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -36,5 +36,8 @@
     <ClCompile Include="find_the_corrupt_pair.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="find_the_smallest_missing_positive_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
