@@ -6,6 +6,7 @@
 #include "find_all_duplicate_numbers.cpp"
 #include "find_the_corrupt_pair.cpp"
 #include "find_the_smallest_missing_positive_number.cpp"
+#include "find_the_first_k_missing_positive_numbers.cpp"
 using namespace std;
 
 int main()
@@ -37,6 +38,14 @@ int main()
     cout << "Duplicate Element: " << m_d[0] << " Missing element: " << m_d[1] << endl << endl;
 
     cout << "Find the smallest Missing Positive Number: " << (find_the_smallest_missing_positive_number()).smallest_missing_number() << endl << endl;
+
+    vector<int> missing = (find_the_first_k_missing_positive_numbers()).find_missing_k_numbers();
+    cout << "Find the first K missing positive numbers: ";
+    for (int element : missing) {
+
+        cout << element << " ";
+    }
+    cout << endl << endl;
 
 }
 

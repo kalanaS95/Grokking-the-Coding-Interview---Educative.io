@@ -39,5 +39,8 @@
     <ClCompile Include="find_the_smallest_missing_positive_number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="find_the_first_k_missing_positive_numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
