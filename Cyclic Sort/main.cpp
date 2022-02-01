@@ -3,6 +3,7 @@
 #include "find_the_missing_number.cpp"
 #include "find_all_missing_numbers.cpp"
 #include "find_the_duplicate_number.cpp"
+#include "find_all_duplicate_numbers.cpp"
 using namespace std;
 
 int main()
@@ -23,6 +24,12 @@ int main()
     cout << endl << endl;
 
     cout << "Find the duplicate number: " << (find_the_duplicate_number()).duplicate_element() << endl << endl;
+
+    cout << "Find all duplicate numbers: ";
+    for (int elem : (find_all_duplicate_nunbers()).all_duplicates()) {
+        cout << elem << " ";
+    }
+    cout << endl << endl;
 
 }
 

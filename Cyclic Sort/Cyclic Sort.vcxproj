@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cyclic_sort.cpp" />
+    <ClCompile Include="find_all_duplicate_numbers.cpp" />
     <ClCompile Include="find_all_missing_numbers.cpp" />
     <ClCompile Include="find_the_duplicate_number.cpp" />
     <ClCompile Include="find_the_missing_number.cpp" />
