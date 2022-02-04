@@ -24,6 +24,9 @@
     <ClCompile Include="reverse_a_sublist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="reverse_every_k_element_sublist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="list_node.h">

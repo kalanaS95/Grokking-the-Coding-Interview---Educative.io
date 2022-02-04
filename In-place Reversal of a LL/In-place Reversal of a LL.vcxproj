@@ -142,6 +142,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="reverse_a_linked_list.cpp" />
     <ClCompile Include="reverse_a_sublist.cpp" />
+    <ClCompile Include="reverse_every_k_element_sublist.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="list_node.h" />
