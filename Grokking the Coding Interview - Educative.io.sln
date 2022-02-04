@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fast and Slow pointers", "F
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cyclic Sort", "Cyclic Sort\Cyclic Sort.vcxproj", "{1F7EF64C-A06D-4C2B-A090-F599156D66AE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "In-place Reversal of a LL", "In-place Reversal of a LL\In-place Reversal of a LL.vcxproj", "{88F37D83-8AE9-4279-85B4-BBC7CA864270}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{1F7EF64C-A06D-4C2B-A090-F599156D66AE}.Release|x64.Build.0 = Release|x64
 		{1F7EF64C-A06D-4C2B-A090-F599156D66AE}.Release|x86.ActiveCfg = Release|Win32
 		{1F7EF64C-A06D-4C2B-A090-F599156D66AE}.Release|x86.Build.0 = Release|Win32
+		{88F37D83-8AE9-4279-85B4-BBC7CA864270}.Debug|x64.ActiveCfg = Debug|x64
+		{88F37D83-8AE9-4279-85B4-BBC7CA864270}.Debug|x64.Build.0 = Debug|x64
+		{88F37D83-8AE9-4279-85B4-BBC7CA864270}.Debug|x86.ActiveCfg = Debug|Win32
+		{88F37D83-8AE9-4279-85B4-BBC7CA864270}.Debug|x86.Build.0 = Debug|Win32
+		{88F37D83-8AE9-4279-85B4-BBC7CA864270}.Release|x64.ActiveCfg = Release|x64
+		{88F37D83-8AE9-4279-85B4-BBC7CA864270}.Release|x64.Build.0 = Release|x64
+		{88F37D83-8AE9-4279-85B4-BBC7CA864270}.Release|x86.ActiveCfg = Release|Win32
+		{88F37D83-8AE9-4279-85B4-BBC7CA864270}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
