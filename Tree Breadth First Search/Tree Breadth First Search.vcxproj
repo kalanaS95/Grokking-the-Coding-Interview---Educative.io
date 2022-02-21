@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{88f37d83-8ae9-4279-85b4-bbc7ca864270}</ProjectGuid>
-    <RootNamespace>InplaceReversalofaLL</RootNamespace>
+    <ProjectGuid>{6c9658ae-9cbb-44ee-ad4e-5eec28746df2}</ProjectGuid>
+    <RootNamespace>TreeBreadthFirstSearch</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,14 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binary_tree_level_order_traversal.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="reverse_alternating_k_element_sublist.cpp" />
-    <ClCompile Include="reverse_a_linked_list.cpp" />
-    <ClCompile Include="reverse_a_sublist.cpp" />
-    <ClCompile Include="reverse_every_k_element_sublist.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="list_node.h" />
+    <ClInclude Include="tree_node.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
